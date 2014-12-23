@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Corben';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Corben'), url(http://fonts.gstatic.com/s/corben/v8/ljkAb4w-83fUltRn9aENdRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@font-face {
+  font-family: 'Nobile';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nobile'), local('Nobile-Regular'), url(http://fonts.gstatic.com/s/nobile/v7/n2eiYI_r3ZOqEpd8GhNldPesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Corben !important;
+    color: #FFFFFF;
+}
+p, div, ul, li {
+    font-family: Nobile !important;
+    color: #FFFFFF;
+}
+
+.jumbotron a {
+    color: #FFF !important;   
+}
+
+.jumbotron a:visited {
+    color: #FFF !important;   
+}
+
+h1 { 
+    text-shadow: 1px 1px 1px #ccc;
+}
+
+body { 
+    background-image: url("../img/bg.png");
+}
+
+.col-md-2 {
+    background-color: #CCC;   
+}
+
+.pagecontent {
+    margin-top: 50px;   
+}
+
+.jumbotron {
+    background-image: url("../img/bg2.png");
+}
+
+.glyphicon-ok {
+    color: #00FF00;  
+}
+
+.glyphicon-fire {
+    color: #FF0000; 
+}
